@@ -64,5 +64,4 @@ async def on_message(message):
     except Exception as e:
         print("Błąd:", e)
 
-import os
 bot.run(os.getenv("TOKEN"))
